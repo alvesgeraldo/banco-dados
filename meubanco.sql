@@ -34,8 +34,8 @@ SELECT nome FROM cliente;
 
 -- Podemos organizar os dados na ordem que queremos com o ORDER BY. Ex:
 
-SELECT * FROM cliente ORDER BY nome; Ordem Crescente
-SELECT * FROM cliente ORDER BY nome; Ordem Decrescente
+SELECT * FROM cliente ORDER BY nome ASC; Ordem Crescente
+SELECT * FROM cliente ORDER BY nome DESC; Ordem Decrescente
 
 -- Atualizando dados na tabela
 
